@@ -20,3 +20,8 @@ class Customer:
             return True
         return False
 
+    def get_info(self):
+        return f"{self.name,self.satisfaction}"
+
+
+
