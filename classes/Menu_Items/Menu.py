@@ -1,6 +1,3 @@
-from os import remove
-
-from classes.Menu_Items.MenuItem import MenuItem
 
 class Menu:
     def __init__(self):
