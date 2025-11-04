@@ -28,6 +28,6 @@ class Order:
         print(f"{self.order_number,self.customer.name,self.items,self.total_price,self.status}")
 
     def is_complete(self):
-        if self.status=='delivered'
+        if self.status=='delivered':
             return True
         return False
